@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { PageShell } from '../../components/PageShell'
 import { PhotoFigure } from '../../components/PhotoFigure'
+import { photos } from '../../content/photos'
 
 export function RefitHaulOut() {
   return (
@@ -16,7 +17,7 @@ export function RefitHaulOut() {
     >
       <h1>Refit &amp; Haul-Out Capacity</h1>
       <PhotoFigure
-        src="/images/dry-dock-refit.jpg"
+        src={photos.dryDockRefit}
         alt="Motor yacht in a dry dock with yard equipment"
       />
       <p>

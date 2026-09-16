@@ -1,3 +1,5 @@
+import { photos } from './photos'
+
 export type CountryPage = {
   slug: string
   h1: string
@@ -26,7 +28,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidate: Andre Blaine, V&A Waterfront, or a Task Team nominee for South Africa).',
     image: {
-      src: '/images/harbour-working.jpg',
+      src: photos.harbourWorking,
       alt: 'Working harbour quay with a motor yacht moored alongside',
     },
     faqs: [
@@ -56,7 +58,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidate: Giel du Toit).',
     image: {
-      src: '/images/atlantic-port.jpg',
+      src: photos.atlanticPort,
       alt: 'Arid Atlantic working harbour with a yacht at a jetty',
     },
     faqs: [],
@@ -75,7 +77,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidate: Bertrand Hardy, Yacht Mauritius).',
     image: {
-      src: '/images/indian-ocean-harbour.jpg',
+      src: photos.indianOceanHarbour,
       alt: 'Tropical working harbour quay with vessels alongside',
     },
     faqs: [],
@@ -94,7 +96,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidate: Gilbert D’Offay, APSY Seychelles).',
     image: {
-      src: '/images/yacht-alongside.jpg',
+      src: photos.yachtAlongside,
       alt: 'Motor yacht lying alongside a working quay at night',
     },
     faqs: [
@@ -121,7 +123,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidates: Cyril Mahafahana or Lauren Swiegers, Madagascar Yacht Services).',
     image: {
-      src: '/images/indian-ocean-harbour.jpg',
+      src: photos.indianOceanHarbour,
       alt: 'Working harbour in a tropical setting',
     },
     faqs: [
@@ -146,7 +148,7 @@ export const countryPages: CountryPage[] = [
     verifiedBy:
       'Verified as of: pending confirmation by a named country steward (candidates: Jonathan Passaportis or Sophia Joshua, St Helena Tourism).',
     image: {
-      src: '/images/atlantic-port.jpg',
+      src: photos.atlanticPort,
       alt: 'Remote working harbour on an arid coast',
     },
     faqs: [],

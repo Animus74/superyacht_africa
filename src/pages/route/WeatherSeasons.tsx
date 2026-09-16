@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { PageShell } from '../../components/PageShell'
 import { PhotoFigure } from '../../components/PhotoFigure'
+import { photos } from '../../content/photos'
 
 export function WeatherSeasons() {
   return (
@@ -21,7 +22,7 @@ export function WeatherSeasons() {
         confirmed with the Infrastructure and Policy Task Teams.
       </p>
       <PhotoFigure
-        src="/images/chart-table.jpg"
+        src={photos.chartTable}
         alt="Nautical chart table with dividers and a paper chart"
       />
 

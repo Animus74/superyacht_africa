@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { PageShell } from '../../components/PageShell'
 import { PhotoFigure } from '../../components/PhotoFigure'
 import { RouteMap } from '../../components/RouteMap'
+import { photos } from '../../content/photos'
 import { routeFaqs, routeLegs } from '../../content/route'
 
 export function RouteOverview() {
@@ -40,7 +41,7 @@ export function RouteOverview() {
         need it.
       </p>
       <PhotoFigure
-        src="/images/marina-pontoons.jpg"
+        src={photos.marinaPontoons}
         alt="Marina pontoons with yachts moored in a working basin"
       />
 

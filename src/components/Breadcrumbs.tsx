@@ -21,6 +21,8 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
 
 export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
   const origin = typeof window === 'undefined' ? '' : window.location.origin
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+  const home = `${origin}${base}/`
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -29,13 +31,13 @@ export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: `${origin}/`,
+        item: home,
       },
       ...items.map((item, i) => ({
         '@type': 'ListItem',
         position: i + 2,
         name: item.name,
-        item: `${origin}${item.path}`,
+        item: `${origin}${base}${item.path}`,
       })),
     ],
   }

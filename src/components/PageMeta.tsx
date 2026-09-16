@@ -13,7 +13,8 @@ export function PageMeta({ title, description, path }: Props) {
     document.title = full
 
     const origin = window.location.origin
-    const canonicalHref = `${origin}${path}`
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+    const canonicalHref = `${origin}${base}${path === '/' ? '/' : path}`
 
     const setMeta = (selector: string, attr: string, value: string) => {
       let el = document.head.querySelector(selector)

@@ -24,8 +24,8 @@ Replace `YOUR-USERNAME` and the repo name with yours.
 
 3. On GitHub: **Settings → Pages → Source: GitHub Actions**.
 4. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish.
-5. The live site will be:
+The live site is:
 
-`https://YOUR-USERNAME.github.io/superyacht-africa/`
+`https://animus74.github.io/superyacht_africa/`
 
 Local `npm run dev` is unchanged. The Pages URL only works after that first successful Action.

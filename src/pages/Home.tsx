@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { JsonLd } from '../components/JsonLd'
 import { PageMeta } from '../components/PageMeta'
 import { breadcrumbJsonLd } from '../components/Breadcrumbs'
+import { photos } from '../content/photos'
 import { organizationJsonLd, SITE_NAME } from '../content/site'
 
 export function Home() {
@@ -18,7 +19,7 @@ export function Home() {
       <section className="hero">
         <img
           className="hero-photo"
-          src="/images/harbour-working.jpg"
+          src={photos.harbourWorking}
           alt="Working harbour quay with a motor yacht moored alongside"
         />
         <div className="hero-copy">
@@ -44,13 +45,13 @@ export function Home() {
 
       <div className="photo-strip" aria-label="Operational photography">
         <figure>
-          <img src="/images/marina-pontoons.jpg" alt="Marina pontoons with yachts moored in a working basin" />
+          <img src={photos.marinaPontoons} alt="Marina pontoons with yachts moored in a working basin" />
         </figure>
         <figure>
-          <img src="/images/yacht-alongside.jpg" alt="Yacht lying alongside a working quay" />
+          <img src={photos.yachtAlongside} alt="Yacht lying alongside a working quay" />
         </figure>
         <figure>
-          <img src="/images/dry-dock-refit.jpg" alt="Yacht in a dry dock for refit work" />
+          <img src={photos.dryDockRefit} alt="Yacht in a dry dock for refit work" />
         </figure>
       </div>
 

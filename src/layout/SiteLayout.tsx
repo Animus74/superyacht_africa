@@ -1,6 +1,7 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { JsonLd } from '../components/JsonLd'
 import { ScrollToTop } from '../components/ScrollToTop'
+import { photos } from '../content/photos'
 import { organizationJsonLd, PRIMARY_NAV, SITE_NAME } from '../content/site'
 
 function sectionActive(to: string, pathname: string) {
@@ -42,7 +43,7 @@ export function SiteLayout() {
         </nav>
       </header>
       <div className="brand-logo-bar">
-        <img className="brand-logo" src="/logo.png" alt="Superyacht Africa" />
+        <img className="brand-logo" src={photos.logo} alt="Superyacht Africa" />
       </div>
       <main id="main" className="site-main">
         <Outlet />
