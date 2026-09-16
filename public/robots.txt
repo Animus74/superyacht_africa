@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Countries & Entry Info must remain crawlable.
+Allow: /countries

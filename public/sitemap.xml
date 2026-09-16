@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/route</loc></url>
+  <url><loc>/route/weather-seasons</loc></url>
+  <url><loc>/route/case-studies</loc></url>
+  <url><loc>/countries</loc></url>
+  <url><loc>/countries/south-africa</loc></url>
+  <url><loc>/countries/namibia</loc></url>
+  <url><loc>/countries/mauritius</loc></url>
+  <url><loc>/countries/seychelles</loc></url>
+  <url><loc>/countries/madagascar</loc></url>
+  <url><loc>/countries/st-helena</loc></url>
+  <url><loc>/countries/refit-haul-out</loc></url>
+  <url><loc>/countries/safety-security-medical</loc></url>
+  <url><loc>/countries/safety-security-medical/insurance-underwriting-brief</loc></url>
+  <url><loc>/countries/crew-practical-information</loc></url>
+  <url><loc>/directory</loc></url>
+  <url><loc>/membership</loc></url>
+  <url><loc>/membership/regional-partner</loc></url>
+  <url><loc>/membership/strategic-corporate-member</loc></url>
+  <url><loc>/membership/corporate-member</loc></url>
+  <url><loc>/membership/sme-local-business-member</loc></url>
+  <url><loc>/membership/crew-member</loc></url>
+  <url><loc>/membership/founding-member</loc></url>
+  <url><loc>/membership/code-of-conduct</loc></url>
+  <url><loc>/about/mandate</loc></url>
+  <url><loc>/about/founding-history-independence</loc></url>
+  <url><loc>/about/economic-impact-study</loc></url>
+  <url><loc>/about/annual-reporting</loc></url>
+  <url><loc>/news</loc></url>
+  <url><loc>/news/press-media</loc></url>
+  <url><loc>/news/government-partnership-enquiries</loc></url>
+  <url><loc>/contact</loc></url>
+  <url><loc>/privacy</loc></url>
+  <url><loc>/terms</loc></url>
+</urlset>
